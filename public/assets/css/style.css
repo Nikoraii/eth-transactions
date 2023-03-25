@@ -396,6 +396,7 @@ lord-icon:has(.active-nav) {
 .current {
     color: var(--white-color) !important;
     border: 2px solid var(--white-color);
+    border-radius: 10px;
 }
 
 .dataTables_length,
