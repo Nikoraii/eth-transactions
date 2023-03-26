@@ -81,7 +81,7 @@
         <h2>Welcome!</h2>
         <h3>You can search for transactions with addresses or check what amount was available at a certain time.</h3>
         <p>Keep in mind that there is a 10,000 limit per request for transactions as I am using Infura API with a <span class="important">free</span> account.</p>
-        <h4><a href="#" id="source"><i class="fa fa-github" aria-hidden="true"></i> Source code</a></h4>
+        <h4><a href="https://github.com/Nikoraii/eth-transactions" id="source"><i class="fa fa-github" aria-hidden="true"></i> Source code</a></h4>
       </div>
     </div>
 
@@ -108,7 +108,7 @@
         <label for="wallet-address">Wallet Address:</label>
         <input type="text" name="walletAddressBalance" id="wallet-address-balance" required />
         <label for="date-input">Date:</label>
-        <input type="date" id="date-input" name="date">
+        <input type="date" id="date-input" name="date" required>
         <button type="submit">Check Balance</button>
       </form>
       <div class="spinner-border hide-load" role="status" id="loader-balance">
@@ -118,6 +118,7 @@
 
     <!-- OTHER TOKENS SECTION -->
     <div class="tab-pane fade" id="nav-tokens" role="tabpanel" aria-labelledby="nav-tokens-tab">
+      <h1>NOT FINISHED...</h1>
       <h1>Check Tokens At Given Time</h1>
       <form action="/tokens" id="tokens">
         <label for="wallet-address-token">Wallet Address:</label>
@@ -126,7 +127,7 @@
         <input type="text" name="tokensAddress" id="token-address" required />
         <label for="date-input-tokens">Date:</label>
         <input type="date" id="date-input-tokens" name="date">
-        <button type="submit">Check Tokens</button>
+        <button type="submit" disabled>Check Tokens</button>
       </form>
       <div class="spinner-border hide-load" role="status" id="loader-tokens">
       </div>

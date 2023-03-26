@@ -7,9 +7,9 @@
 # How to run
 - Clone the repository
 ```
-git clone  https://github.com/Nikoraii/eth-t.git <project_name>
+git clone  https://github.com/Nikoraii/eth-transactions.git <project_name>
 ```
-- Install dependencies - navigate to project directory
+- Install dependencies - navigate to the project directory
 ```
 cd <project_name>
 npm install
